@@ -61,7 +61,7 @@ def my12():
             else:
                 return 'Unable to fetch price data for the updated ticker'
         else:
-            return render_template('my1/update.html', ticker=ticker)
+            return render_template('update.html', ticker=ticker)
 
 
     # Delete
