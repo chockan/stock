@@ -121,10 +121,6 @@ def my12():
     return app
 
 
-# Debugger mode
-if __name__ == "__main__":
-    app=my12()
-    app.run(debug=True)
 
 
 
